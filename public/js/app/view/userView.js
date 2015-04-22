@@ -20,6 +20,8 @@ var userView = Backbone.View.extend({
 		if(name && email){
 			var checkEmail = this.validateEmail(email);
 			if(checkEmail){
+				$("#error").hide();
+				
 				 var userDetails = {
 			        name: name,
 			        email: email
