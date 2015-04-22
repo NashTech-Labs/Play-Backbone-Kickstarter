@@ -1,4 +1,4 @@
-name := """play-backbone"""
+name := """play-backbone-kickstarter"""
 
 version := "1.0-SNAPSHOT"
 
